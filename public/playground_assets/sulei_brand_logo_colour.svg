@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 651 757" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4504,-6961)">
+        <g transform="matrix(0.40962,0,0,0.839245,3844.08,6961.86)">
+            <rect id="sulei_brand_logo_colour" x="1613.06" y="0" width="1586.34" height="900" style="fill:none;"/>
+            <g id="sulei_brand_logo_colour1" serif:id="sulei_brand_logo_colour">
+                <g transform="matrix(2.44128,0,0,1.19155,-29.9266,-208.85)">
+                    <g transform="matrix(1,0,0,1,83.1439,-63.5588)">
+                        <path d="M899.77,637.35C899.77,645.224 896.131,652.657 889.91,657.485C883.69,662.313 875.587,663.994 867.959,662.041C813.179,647.866 772.653,598.079 772.653,538.9C772.653,479.721 813.179,429.933 867.969,415.8C875.585,413.849 883.675,415.528 889.885,420.348C896.095,425.168 899.729,432.588 899.729,440.45C899.77,489.373 899.77,588.427 899.77,637.35Z" style="fill:rgb(73,166,230);"/>
+                    </g>
+                    <g transform="matrix(-1,1.22465e-16,-1.22465e-16,-1,1912.68,1156.87)">
+                        <path d="M899.77,637.35C899.77,645.224 896.131,652.657 889.91,657.485C883.69,662.313 875.587,663.994 867.959,662.041C813.179,647.866 772.653,598.079 772.653,538.9C772.653,479.721 813.179,429.933 867.969,415.8C875.585,413.849 883.675,415.528 889.885,420.348C896.095,425.168 899.729,432.588 899.729,440.45C899.77,489.373 899.77,588.427 899.77,637.35Z" style="fill:rgb(248,69,69);"/>
+                    </g>
+                    <g transform="matrix(0.25,0,0,0.25,960.032,293.428)">
+                        <circle cx="465.765" cy="486.301" r="254.235" style="fill:rgb(183,104,246);"/>
+                    </g>
+                    <g transform="matrix(0.25,0,0,0.25,802.914,556.731)">
+                        <circle cx="465.765" cy="486.301" r="254.235" style="fill:rgb(54,221,166);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
