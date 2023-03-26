@@ -164,14 +164,16 @@ const Home = (props) => {
         </div>
         <div className="home-container1">
           <div className="home-container2">
-            <span className="home-text08">
-              Hi! 👋 Feel free to
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </span>
+            <div className="home-container3">
+              <span className="home-text08">
+                Hi! 👋 Feel free to
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+            </div>
           </div>
           <a
             href="https://forms.sulei.uk/sulei"
@@ -183,7 +185,7 @@ const Home = (props) => {
           </a>
         </div>
         <footer className="home-footer">
-          <div className="home-container3">
+          <div className="home-container4">
             <img
               alt="logo"
               src="/playground_assets/sulei_brand_greyscale-200h.png"
@@ -191,7 +193,7 @@ const Home = (props) => {
             />
           </div>
           <div className="home-separator"></div>
-          <div className="home-container4">
+          <div className="home-container5">
             <span className="home-text09">
               © 2023 Sulei Ltd, All Rights Reserved.
             </span>
@@ -580,9 +582,18 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-items: flex-start;
+            flex-direction: column;
             justify-content: center;
           }
           .home-container2 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .home-container3 {
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -618,7 +629,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .home-container3 {
+          .home-container4 {
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
@@ -648,7 +659,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container4 {
+          .home-container5 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -773,7 +784,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container4 {
+            .home-container5 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
@@ -798,6 +809,13 @@ const Home = (props) => {
             .home-email {
               width: 100%;
             }
+            .home-container1 {
+              margin: auto;
+              text-align: center;
+              align-items: center;
+              flex-direction: column;
+              justify-content: center;
+            }
             .home-footer {
               padding: var(--dl-space-space-unit);
             }
@@ -805,7 +823,7 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container4 {
+            .home-container5 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
