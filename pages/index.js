@@ -803,6 +803,9 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .home-link {
+              margin-right: var(--dl-space-space-unit);
+            }
             .home-image1 {
               margin-top: 0px;
             }
