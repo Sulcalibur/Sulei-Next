@@ -56,11 +56,11 @@ const Home = (props) => {
             <div data-thq="thq-mobile-menu" className="home-mobile-menu">
               <div className="home-top">
                 <div className="home-branding1">
-                  <span className="home-text2">Remarkable</span>
+                  <span className="home-text02">Remarkable</span>
                   <svg viewBox="0 0 1024 1024" className="home-icon02">
                     <path d="M128 128h768v768h-768z"></path>
                   </svg>
-                  <span className="home-text3">Remarkable</span>
+                  <span className="home-text03">Remarkable</span>
                 </div>
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon04">
@@ -123,13 +123,10 @@ const Home = (props) => {
           className="home-image1"
         />
         <Mission></Mission>
-        <a href="mailto:hi@sulei.uk?subject=" className="home-link1 button">
-          Hi! 👋 - Get in touch
-        </a>
         <section className="home-newsletter">
           <div className="home-header">
-            <h2 className="home-text6">Subscribe to the newsletter</h2>
-            <p className="home-text7">
+            <h2 className="home-text06">Subscribe to the newsletter</h2>
+            <p className="home-text07">
               Sign up for our newsletter to get the latest news!
             </p>
           </div>
@@ -165,8 +162,28 @@ const Home = (props) => {
 </style>`}
           ></DangerousHTML>
         </div>
+        <div className="home-container1">
+          <div className="home-container2">
+            <span className="home-text08">
+              Hi! 👋 Feel free to
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </div>
+          <a
+            href="https://forms.sulei.uk/sulei"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="home-link1"
+          >
+            get in touch
+          </a>
+        </div>
         <footer className="home-footer">
-          <div className="home-container1">
+          <div className="home-container3">
             <img
               alt="logo"
               src="/playground_assets/sulei_brand_greyscale-200h.png"
@@ -174,8 +191,8 @@ const Home = (props) => {
             />
           </div>
           <div className="home-separator"></div>
-          <div className="home-container2">
-            <span className="home-text8">
+          <div className="home-container4">
+            <span className="home-text09">
               © 2023 Sulei Ltd, All Rights Reserved.
             </span>
             <div className="home-icon-group">
@@ -347,7 +364,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: center;
           }
-          .home-text2 {
+          .home-text02 {
             color: rgba(18, 40, 33, 1);
             font-size: 24px;
             line-height: 36px;
@@ -356,7 +373,7 @@ const Home = (props) => {
             width: 7px;
             height: 7px;
           }
-          .home-text3 {
+          .home-text03 {
             color: rgba(18, 40, 33, 1);
             font-size: 18px;
             font-family: Lato;
@@ -446,11 +463,6 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-fourunits);
             object-fit: cover;
           }
-          .home-link1 {
-            color: #ffffff;
-            text-decoration: none;
-            background-color: #b768f6;
-          }
           .home-newsletter {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
@@ -476,7 +488,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text6 {
+          .home-text06 {
             color: rgb(18, 40, 33);
             width: 100%;
             font-size: 56px;
@@ -485,7 +497,7 @@ const Home = (props) => {
             text-align: center;
             font-weight: 500;
           }
-          .home-text7 {
+          .home-text07 {
             color: rgb(18, 40, 33);
             width: 100%;
             font-size: 20px;
@@ -562,6 +574,38 @@ const Home = (props) => {
             font-family: Lato;
             line-height: 15px;
           }
+          .home-container1 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .home-container2 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .home-text08 {
+            color: rgb(70, 70, 70);
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 600;
+          }
+          .home-link1 {
+            color: rgb(183, 104, 246);
+            cursor: pointer;
+            font-size: 34px;
+            font-style: normal;
+            transition: 0.3s;
+            font-weight: 600;
+            padding-left: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .home-link1:hover {
+            color: #8523d4;
+          }
           .home-footer {
             width: 100%;
             display: flex;
@@ -574,7 +618,7 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
-          .home-container1 {
+          .home-container3 {
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
             align-items: center;
@@ -604,7 +648,7 @@ const Home = (props) => {
             border-left-width: 0px;
             border-right-width: 0px;
           }
-          .home-container2 {
+          .home-container4 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -612,7 +656,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text8 {
+          .home-text09 {
             font-family: sans-serif;
           }
           .home-icon-group {
@@ -667,7 +711,7 @@ const Home = (props) => {
             .home-icon02 {
               display: none;
             }
-            .home-text3 {
+            .home-text03 {
               display: none;
             }
             .home-newsletter {
@@ -678,10 +722,10 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-oneandhalfunits);
               padding-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text6 {
+            .home-text06 {
               font-size: 32px;
             }
-            .home-text7 {
+            .home-text07 {
               font-size: 16px;
               line-height: 24px;
             }
@@ -729,12 +773,12 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .home-container4 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text8 {
+            .home-text09 {
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
           }
@@ -761,12 +805,12 @@ const Home = (props) => {
               margin-top: var(--dl-space-space-oneandhalfunits);
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
-            .home-container2 {
+            .home-container4 {
               align-items: center;
               flex-direction: column;
               justify-content: space-between;
             }
-            .home-text8 {
+            .home-text09 {
               text-align: center;
               margin-bottom: var(--dl-space-space-oneandhalfunits);
             }
