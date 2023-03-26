@@ -582,7 +582,7 @@ const Home = (props) => {
             height: auto;
             display: flex;
             align-items: flex-start;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
           }
           .home-container2 {
@@ -815,6 +815,9 @@ const Home = (props) => {
               align-items: center;
               flex-direction: column;
               justify-content: center;
+            }
+            .home-link1 {
+              padding-left: 0;
             }
             .home-footer {
               padding: var(--dl-space-space-unit);
